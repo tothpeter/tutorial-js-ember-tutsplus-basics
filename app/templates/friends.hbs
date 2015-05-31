@@ -1,8 +1,9 @@
 <h1>Friends</h1>
+{{#link-to 'friends.new'}}New{{/link-to}}
 
 <ul>
   {{#each item in model}}
-    <li>{{#link-to 'friends.about' item}}{{item.name}}{{/link-to}}</li>
+    <li>{{#link-to 'friends.about' item}}{{item.firstName}}{{/link-to}}</li>
   {{/each}}
 </ul>
 

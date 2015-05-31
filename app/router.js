@@ -12,6 +12,7 @@ Router.map(function() {
   this.resource('friends', function() {
     this.route('issues');
     this.route('about', { path: "/:friend_id/about" });
+    this.route('new');
   });
 });
 
