@@ -4,4 +4,4 @@
 {{input value=lastName}}<br>
 <label for="">About</label>
 {{textarea value=about}}<br>
-<button {{action "create"}} {{bind-attr disabled=isInvalid }}>Create</button>
+<button {{action "create"}} disabled={{isInvalid}}>Create</button>
